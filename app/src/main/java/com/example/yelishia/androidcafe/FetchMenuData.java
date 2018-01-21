@@ -1,6 +1,8 @@
 package com.example.yelishia.androidcafe;
 
 import android.os.AsyncTask;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.util.Log;
 
 import java.io.BufferedReader;
@@ -15,6 +17,7 @@ import java.net.URL;
 /**
  * Created by Yelishia on 1/16/2018.
  */
+
 
 public class FetchMenuData extends AsyncTask<Void, Void, String> {
 
