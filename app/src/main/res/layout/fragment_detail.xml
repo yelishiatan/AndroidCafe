@@ -24,9 +24,6 @@
         android:textSize="30sp"
         android:textStyle="bold"/>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/tvDescription"
@@ -36,6 +33,5 @@
         android:text="Description"
         android:textSize="20sp" />
 
-    </ScrollView>
 
 </LinearLayout>
